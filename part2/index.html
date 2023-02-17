@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Store</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Book Store</h1>
+    <form id="bookForm">
+      <h2>Add a New Book</h2>
+      <div>
+        <div>
+          <label for="titleInput">Title:</label>
+          <input type="text" id="titleInput" required />
+        </div>
+        <div>
+          <label for="authorInput">Author:</label>
+          <input type="text" id="authorInput" required />
+        </div>
+        <div class="date">
+          <label for="dateInput">Published Date:</label>
+          <input type="date" id="dateInput" required />
+        </div>
+        <div class="submit">
+          <button type="submit">Add Book</button>
+        </div>
+      </div>
+    </form>
+    <table id="bookTable">
+      <thead>
+        <tr>
+          <th>Book Title</th>
+          <th>Author</th>
+          <th>Dte Published</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <script type="text/JavaScript" src="./index.js"></script>
+  </body>
+</html>

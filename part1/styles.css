@@ -1,0 +1,38 @@
+header {
+  background-color: green;
+  color: white;
+  padding: 20px;
+}
+
+nav {
+  background-color: orange;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: orange;
+}
+
+nav a.active {
+  background-color: white;
+  color: orange;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

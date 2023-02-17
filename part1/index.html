@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Test</h1>
+    </header>
+
+    <nav>
+      <a href="#" class="active" onclick="setActiveLink(this)">Home</a>
+      <a href="#" onclick="setActiveLink(this)">About</a>
+      <a href="#" onclick="setActiveLink(this)">Contact</a>
+    </nav>
+
+    <main>
+      <!-- Add your content here -->
+    </main>
+
+    <footer>
+      <p>&copy; test</p>
+    </footer>
+  </body>
+
+  <script>
+    function setActiveLink(link) {
+      // Remove "active" class from all links
+      var links = document.getElementsByTagName("a");
+      for (var i = 0; i < links.length; i++) {
+        links[i].classList.remove("active");
+      }
+
+      // Add "active" class to clicked link
+      link.classList.add("active");
+    }
+  </script>
+</html>
