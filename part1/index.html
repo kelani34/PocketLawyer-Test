@@ -19,7 +19,18 @@
     </nav>
 
     <main>
-      <!-- Add your content here -->
+      <div class="content">
+        <h1>This Is a test page</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+          itaque doloribus officiis reiciendis, iusto eligendi, at ipsa ea sed
+          nesciunt dolorum placeat omnis nam labore! Alias perspiciatis dolorum
+          saepe voluptate? Lorem ipsum, dolor sit amet consectetur adipisicing
+          elit. Deserunt itaque doloribus officiis reiciendis, iusto eligendi,
+          at ipsa ea sed nesciunt dolorum placeat omnis nam labore! Alias
+          perspiciatis dolorum saepe voluptate?
+        </p>
+      </div>
     </main>
 
     <footer>
@@ -29,13 +40,10 @@
 
   <script>
     function setActiveLink(link) {
-      // Remove "active" class from all links
       var links = document.getElementsByTagName("a");
       for (var i = 0; i < links.length; i++) {
         links[i].classList.remove("active");
       }
-
-      // Add "active" class to clicked link
       link.classList.add("active");
     }
   </script>
